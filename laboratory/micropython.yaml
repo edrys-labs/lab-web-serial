@@ -1,0 +1,468 @@
+id: UFjCXcT4dfSsWcRm
+createdBy: 35banpdWTU7qL
+dateCreated: 1713791372082
+name: Lab - WebSerial
+meta:
+  logo: >-
+    https://raw.githubusercontent.com/edrys-labs/lab-web-serial/main/media/logo.jpg
+  description: >-
+    Discover the exciting world of coding with our MicroPython course. Using
+    just your web browser and a connected Arduino Nano 33 BLE Sense Rev 2,
+    you'll learn how to program and control electronic projects. This
+    beginner-friendly course guides you through fun, interactive lessons using
+    Web Serial technology. Start your programming adventure today and bring your
+    ideas to life!
+  selfAssign: true
+  defaultNumberOfRooms: 0
+members:
+  teacher: []
+  student: []
+modules:
+  - url: >-
+      https://raw.githubusercontent.com/edrys-labs/module-markdown-it/2.0.0/index.html
+    config: >-
+      # Course Summary: Introduction to Python, Arduino, and MicroPython
+
+
+      **Overview:**
+
+
+      This course provided a comprehensive introduction to programming using
+      Python and MicroPython on the Arduino Nano 33 BLE Sense platform. Students
+      were guided through the fundamentals of Python programming, followed by an
+      introduction to MicroPython specifically tailored for physical computing
+      with Arduino. By blending basic programming skills with hardware
+      interaction, the course aimed to equip students with the knowledge and
+      skills necessary to embark on their own projects in the world of IoT and
+      embedded systems.
+
+
+      ---
+
+
+      ## Module 1: Python Basics
+
+      **Key Topics Covered:**
+
+      - **Python Syntax:** Students learned the basic structure of Python
+      programming including variables, data types, functions, and control
+      structures.
+
+      - **Interactive Coding:** Through an online code editor, students
+      practiced writing Python code, starting with simple scripts like "Hello,
+      World!" and gradually moving to more complex structures like loops and
+      conditionals.
+
+      - **Foundational Concepts:** The module emphasized understanding core
+      programming concepts, which are crucial for any programming task, whether
+      on traditional computers or embedded systems.
+
+
+      **Skills Gained:**
+
+      - Ability to write and debug basic Python code.
+
+      - Understanding of how to manipulate data using variables and operations.
+
+      - Competence in using loops and conditional statements to control the flow
+      of a Python program.
+
+      ---
+
+      ## Module 2: Introduction to MicroPython on Arduino
+
+      **Key Topics Covered:**
+
+      - **Introduction to MicroPython:** An overview of MicroPython and its
+      optimization for microcontrollers like the Arduino.
+
+      - **Setting Up the Arduino:** Detailed instructions on how to flash
+      MicroPython to the Arduino Nano 33 BLE Sense and establish a connection
+      for programming.
+
+      - **GPIO Control:** Practical experience with the `machine` module,
+      teaching students how to control hardware such as LEDs using MicroPython.
+
+      - **Blink Example:** A hands-on project where students applied their
+      Python skills to make an LED blink using MicroPython, introducing them to
+      physical computing concepts.
+
+
+      **Skills Gained:**
+
+      - Knowledge of the differences and capabilities of MicroPython compared to
+      standard Python.
+
+      - Experience in setting up and programming microcontrollers.
+
+      - Practical skills in interfacing with hardware components through
+      programming.
+
+      ---
+
+      ## Integration of Core Concepts
+
+      **Python:**
+
+      - A high-level, versatile programming language used for everything from
+      web development to software and scientific applications.
+
+      - Python's clear syntax and readability make it an excellent choice for
+      beginners.
+
+
+      **Arduino:**
+
+      - An open-source electronics platform based on easy-to-use hardware (like
+      the Arduino Nano 33 BLE Sense) and software (Arduino IDE).
+
+      - Widely used in prototyping, DIY projects, and education to introduce
+      electronics and programming.
+
+
+      **MicroPython:**
+
+      - A version of Python designed to run on limited resource systems like
+      microcontrollers.
+
+      - Offers a subset of Python's features with additional libraries to
+      control hardware devices directly, making it ideal for embedded systems
+      applications.
+
+
+      **Physical Computing:**
+
+      - Refers to building interactive systems that can sense and respond to the
+      world around them.
+
+      - Using MicroPython with Arduino, students learned how to integrate
+      sensors and outputs, gaining foundational skills in IoT development.
+
+      ---
+
+      This course laid a solid foundation in programming and introduced the
+      exciting possibilities of physical computing, preparing students for
+      further exploration and innovation in technology-related fields. By
+      understanding both the software and hardware aspects, students are now
+      better equipped to tackle more complex projects and continue their
+      learning journey in STEM.
+    studentConfig: ''
+    teacherConfig: >-
+      ## Teacher instructions
+
+      If you have created this laboratory, you will have to open a station to which other students can connect.
+      You can either go to `Setting` >> `Stations` and click on the link to open the browser in station mode.
+      This lab uses Web Serial API to communicate with the Arduino Nano 33 BLE Sense, thus you will have to use Google-Chrome for this link.
+      Google-Chrome is the only browser that supports Web Serial API at the moment.
+    stationConfig: ''
+    showInCustom: Lobby
+    width: full
+    height: tall
+  - url: https://edrys-labs.github.io/module-serial/
+    config:
+      baud: 115200
+    studentConfig: ''
+    teacherConfig: ''
+    stationConfig: ''
+    showInCustom: Station
+    width: full
+    height: medium
+  - url: https://edrys-labs.github.io/module-station-stream/index.html
+    config: ''
+    studentConfig: ''
+    teacherConfig: ''
+    stationConfig:
+      video: true
+      audio: false
+    showInCustom: Station
+    width: half
+    height: medium
+  - url: >-
+      https://raw.githubusercontent.com/edrys-labs/module-markdown-it/2.0.0/index.html
+    config: >-
+      # Welcome to Lab - WebSerial
+
+      ## Part I: Mastering Python Fundamentals
+
+
+      **Tutorial Overview:**
+
+
+      This comprehensive online tutorial will help students develop a strong
+      foundation in Python, which is essential for understanding and utilizing
+      MicroPython effectively on hardware like the Arduino Nano 33 BLE Sense.
+      The course is structured to begin with basic Python syntax and
+      progressively incorporates more complex examples, preparing students for
+      physical computing projects.
+
+
+
+      **Introduction:**
+
+
+      Welcome to your first steps in Python and MicroPython! This tutorial is
+      designed to ease you into the world of programming through interactive
+      code examples and detailed explanations. Let's start by exploring the core
+      elements of Python programming.
+
+      ### Module 1: Python Basics
+
+
+      **Objective:**
+
+
+      Familiarize students with Python syntax and basic programming concepts.
+
+      #### Step 1: Hello, Python!
+
+      1. **Your First Python Program**
+
+         - Type the following code into the provided online code editor and run it:
+
+           ```python
+           print("Hello, world!")
+           ```
+
+         - This code will display the text "Hello, world!" on your screen.
+
+      #### Step 2: Variables and Data Types
+
+      1. **Working with Variables**
+
+         - Learn how to create and use variables:
+
+           ```python
+           my_number = 10
+           my_string = "Python is fun!"
+           print(my_number, my_string)
+           ```
+
+      2. **Different Data Types**
+
+         - Introduce integers, strings, floats, and booleans through examples:
+
+           ```python
+           age = 12  # An integer
+           temperature = 25.5  # A float
+           is_sunny = True  # A boolean
+           ```
+
+      #### Step 3: Basic Operations
+
+      1. **Mathematical Operations**
+
+         - Perform basic arithmetic operations:
+
+           ```python
+           # Addition
+           print(10 + 5)
+           # Subtraction
+           print(10 - 5)
+           # Multiplication
+           print(10 * 5)
+           # Division
+           print(10 / 5)
+           ```
+
+      2. **String Operations**
+
+         - Concatenate and manipulate strings:
+
+           ```python
+           first_name = "Ada"
+           last_name = "Lovelace"
+           full_name = first_name + " " + last_name
+           print("Hello, " + full_name)
+           ```
+
+      #### Step 4: Control Structures
+
+      1. **If Statements**
+
+         - Make decisions using if, elif, and else:
+
+           ```python
+           if age > 18:
+               print("You are an adult.")
+           elif age > 12:
+               print("You are a teenager.")
+           else:
+               print("You are a child.")
+           ```
+
+      2. **Loops**
+
+         - Learn to use for and while loops to repeat tasks:
+
+           ```python
+           # Using a for loop to count to five
+           for i in range(1, 6):
+               print(i)
+
+           # Using a while loop to count to five
+           count = 1
+           while count <= 5:
+               print(count)
+               count += 1
+           ```
+
+      ### Conclusion:
+
+      Congratulations on completing the basics of Python! You've learned how to
+      write simple scripts, use variables, perform operations, and control the
+      flow of your programs. These skills are the building blocks for diving
+      into MicroPython and starting to program the Arduino Nano 33 BLE Sense.
+
+
+      **Next Steps:**
+
+
+      - Move on to applying these Python fundamentals in MicroPython.
+
+      - Start simple projects on the Arduino to see these concepts in action
+      with physical computing.
+
+
+      ## Part II: MicroPython Fundamentals and Blink Example
+
+      **Tutorial Overview:**
+
+
+      Building on the Python basics, this extension of the tutorial delves into
+      MicroPython specifics and demonstrates how to apply Python fundamentals to
+      control hardware. The focus will be on understanding MicroPython's
+      additional features and differences, leading to a hands-on project that
+      controls an LED on the Arduino Nano 33 BLE Sense.
+
+      **Objective:**
+
+
+      Introduce MicroPython, explain its differences and additional features
+      compared to standard Python, and guide students through creating a simple
+      hardware control project.
+
+      ### Module 2: Introduction to MicroPython
+
+
+      ### Step 1: What is MicroPython?
+
+
+      1. **Overview of MicroPython**
+
+
+         - MicroPython is a lean and efficient implementation of Python designed to run on microcontrollers.
+
+         - It includes modules to interact directly with hardware, such as GPIOs (general-purpose input/output), PWM (pulse-width modulation), ADC (analog to digital converters), and more.
+
+      ### Step 2: MicroPython vs. Python
+
+      1. **Differences Explained**
+
+
+         - Discuss how MicroPython is optimized for microcontrollers with limited processing power and memory.
+
+         - Highlight specific modules and functions in MicroPython that are not found in standard Python, like `machine` for controlling hardware.
+
+      ### Module 3: Your First MicroPython Project – Blinking an LED
+
+      ### Step 3: Basic MicroPython Syntax and GPIO Control
+
+      1. **Control Structures and Syntax**
+
+         - Review similar syntax as Python for control structures like if statements and loops, emphasizing syntax differences if any.
+
+      2. **Introduction to `machine` Module**
+
+         - Explain the `machine` module used for accessing the GPIO:
+
+           ```python
+           from machine import Pin
+           ```
+
+      ### Step 4: Writing the Blink Code
+
+      1. **Setting Up the LED**
+
+         - Show how to define a pin as an output:
+
+           ```python
+           led = Pin(13, Pin.OUT)  # Pin 13 is typically the onboard LED for many Arduino boards
+           ```
+
+      2. **Creating a Blink Function**
+
+         - Write a function to turn the LED on and off:
+
+           ```python
+           import time
+
+           def blink(led, duration):
+               led.value(1)  # Turn LED on
+               time.sleep(duration)  # Keep it on for 'duration' seconds
+               led.value(0)  # Turn LED off
+               time.sleep(duration)  # Keep it off for 'duration' seconds
+           ```
+
+      3. **Running the Blink Function**
+
+         - Use a loop to continuously call the blink function:
+
+           ```python
+           while True:
+               blink(led, 0.5)  # Blink every 0.5 seconds
+           ```
+
+      ### Step 5: Detailed Explanation of the Blink Code
+
+      1. **Explaining Each Line**
+
+         - `from machine import Pin`: Imports the Pin class for controlling GPIO pins.
+
+         - `import time`: Imports the time module to use the sleep function.
+
+         - `led = Pin(13, Pin.OUT)`: Sets up pin 13 as an output pin connected to the LED.
+
+         - `def blink(led, duration)`: Defines a function named blink that takes two arguments, `led` (the LED pin) and `duration` (time the LED stays on or off).
+
+         - `led.value(1)` and `led.value(0)`: These lines turn the LED on and off, respectively.
+           `1` sets the pin high, and `0` sets it low.
+
+         - `time.sleep(duration)`: Pauses the program for the number of seconds specified by `duration`.
+
+      ### Conclusion:
+
+      Congratulations! You have successfully programmed your Arduino Nano 33 BLE
+      Sense with MicroPython to blink an LED. This project illustrates how you
+      can control physical hardware using the programming skills you've
+      developed.
+
+
+      **Next Steps:**
+
+      - Experiment with modifying the blink rate and combining other sensors or
+      outputs.
+
+      - Try adding more LEDs or create patterns with multiple outputs.
+    studentConfig: ''
+    teacherConfig: ''
+    stationConfig: >-
+      ## Station Instructions
+
+      You will have to open this site in Google-Chrome to access the Web Serial API.
+      Additionally you will have to connect your Arduino Nano 33 BLE Sense to your computer and to connect it to the station.
+
+      In this example we assume that you have installed MicroPython on your Arduino Nano 33 BLE Sense.
+      Or any other board that supports MicroPython.
+      Or any other board that applies the serial communication over USB.
+      Therefor you will have to adjust the baud rate to the one that is used by your board.
+
+      For more information on how to install MicroPython on your Arduino Nano 33 BLE Sense, please refer to the official documentation:
+
+
+      https://docs.arduino.cc/micropython/basics/board-installation/
+
+
+      > By the way, we used the Arduino MicroPython Installer to flash the firmware, that can be found here: https://labs.arduino.cc/en/labs/micropython-installer
+    showInCustom: Station
+    width: full
+    height: medium
