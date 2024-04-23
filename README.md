@@ -32,3 +32,8 @@ The created classroom will be unique and can be shared with your students.
 
 [<img src="https://img.shields.io/badge/%F0%9F%9A%80%20-%20Deploy%20Lab%20-%20light?style=plastic" height="25" />](https://edrys-labs.github.io/?/deploy/https://raw.githubusercontent.com/edrys-labs/lab-web-serial/main/laboratory/micropython.yaml)
 
+## Demo
+
+https://github.com/edrys-labs/lab-web-serial/assets/3089101/90057461-c96f-42d5-a002-c2d4b105f81a
+
+
