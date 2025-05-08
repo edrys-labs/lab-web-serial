@@ -18,8 +18,7 @@ members:
   teacher: []
   student: []
 modules:
-  - url: >-
-      https://raw.githubusercontent.com/edrys-labs/module-markdown-it/2.0.0/index.html
+  - url: https://edrys-labs.github.io/module-markdown-it/index.html
     config: 
       content: >-
         # Course Summary: Introduction to Python, Arduino, and MicroPython
@@ -181,8 +180,7 @@ modules:
     showInCustom: Station
     width: half
     height: medium
-  - url: >-
-      https://raw.githubusercontent.com/edrys-labs/module-markdown-it/2.0.0/index.html
+  - url: https://edrys-labs.github.io/module-markdown-it/index.html
     config: 
       content: >-
         # Welcome to Lab - WebSerial
