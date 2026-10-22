@@ -170,7 +170,7 @@ modules:
     showInCustom: Station
     width: full
     height: medium
-  - url: https://edrys-labs.github.io/module-station-stream/index.html
+  - url: https://edrys-labs.github.io/module-streaming/index.html
     config: ''
     studentConfig: ''
     teacherConfig: ''

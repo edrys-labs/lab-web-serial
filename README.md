@@ -14,7 +14,7 @@ This lab uses 3 modules only:
 
 1. [module-serial](https://github.com/edrys-labs/module-serial): This module is used to connect to the serial port of the device.
 2. [module-markdown-it](https://github.com/edrys-labs/module-markdown-it): This module is used to render the markdown content of the lab.
-3. [module-station-stream](https://github.com/edrys-labs/module-station-stream): This module is used to send a video stream from the station module to all connected users.
+3. [module-streaming](https://github.com/edrys-labs/module-streaming): This module is used to send a video stream from the station module to all connected users.
 
 ---
 
