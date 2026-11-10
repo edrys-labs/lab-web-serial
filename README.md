@@ -2,7 +2,7 @@
 
 This can be used as a starter laboratory for any kind of labs that are implemented with a serial connection.
 This lab uses the WebSerial API to connect to your device and send commands to it.
-For demonstration purposes, we used a MicroPython on a Arduino Nano 33 IoT board, but it can be any kind of board or experiment that uses a serial connection.
+For demonstration purposes, we used MicroPython on a Raspberry Pi Pico W, but it can be any kind of board or experiment that uses a serial connection.
 
 ![demo](./media/demo.gif)
 
@@ -34,6 +34,7 @@ The created classroom will be unique and can be shared with your students.
 
 ## Demo
 
-https://github.com/edrys-labs/lab-web-serial/assets/3089101/90057461-c96f-42d5-a002-c2d4b105f81a
+https://github.com/user-attachments/assets/4201292e-936c-4235-b34b-52b78695ba83
+
 
 
